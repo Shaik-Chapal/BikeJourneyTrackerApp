@@ -35,7 +35,6 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
-import com.project.bikejourneytrackerapp.model.data.Post
 import com.project.bikejourneytrackerapp.util.Common
 import com.project.bikejourneytrackerapp.viewmodel.RedditViewModel
 import com.project.bikejourneytrackerapp.viewmodel.ViewModelState

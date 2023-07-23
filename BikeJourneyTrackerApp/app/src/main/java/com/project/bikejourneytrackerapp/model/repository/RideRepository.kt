@@ -1,7 +1,5 @@
 package com.project.bikejourneytrackerapp.model.repository
 
-import com.project.bikejourneytrackerapp.model.data.Post
-
 interface RideRepository {
     suspend fun getPosts(after: String? = null): RepositoryResult
 

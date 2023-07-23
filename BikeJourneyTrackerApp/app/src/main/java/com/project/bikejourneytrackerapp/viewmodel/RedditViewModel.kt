@@ -2,7 +2,6 @@ package com.project.bikejourneytrackerapp.viewmodel
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
-import com.project.bikejourneytrackerapp.model.data.Post
 import com.project.bikejourneytrackerapp.model.repository.RideRepository
 import com.project.bikejourneytrackerapp.util.TinyDB
 import dagger.hilt.android.lifecycle.HiltViewModel

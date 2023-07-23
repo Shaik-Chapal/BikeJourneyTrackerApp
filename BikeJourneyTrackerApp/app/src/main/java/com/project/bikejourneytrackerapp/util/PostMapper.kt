@@ -1,8 +1,5 @@
 package com.project.bikejourneytrackerapp.util
 
-import com.project.bikejourneytrackerapp.model.data.Post
-import com.project.bikejourneytrackerapp.model.data.RedditResponse
-
 class PostMapper {
 
     fun map(redditResponse: RedditResponse): List<Post> {

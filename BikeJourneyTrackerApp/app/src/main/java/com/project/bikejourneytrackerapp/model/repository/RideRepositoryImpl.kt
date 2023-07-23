@@ -1,6 +1,5 @@
 package com.project.bikejourneytrackerapp.model.repository
 
-import com.project.bikejourneytrackerapp.model.data.RedditResponse
 import com.project.bikejourneytrackerapp.model.service.RideService
 import com.project.bikejourneytrackerapp.util.PostMapper
 import javax.inject.Inject

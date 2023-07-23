@@ -1,6 +1,5 @@
 package com.project.bikejourneytrackerapp.viewmodel
 
-import com.project.bikejourneytrackerapp.model.data.Post
 import java.io.Serializable
 
 sealed class ViewModelState : Serializable {
