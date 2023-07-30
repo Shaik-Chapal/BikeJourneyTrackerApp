@@ -12,6 +12,10 @@
         "source": "xyz.summer.bikejourneytracker.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable_ic_home.xml.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable/ic_home.xml"
+    },
+    {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-65:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -28,12 +32,24 @@
         "source": "xyz.summer.bikejourneytracker.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable_strings.xml.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable/strings.xml"
+    },
+    {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-65:/mipmap-mdpi/ic_launcher.webp"
     },
     {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/xml_backup_rules.xml.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-65:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable_ic_voice.xml.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable/ic_voice.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable_ic_credit_card.xml.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable/ic_credit_card.xml"
     },
     {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -58,6 +74,14 @@
     {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable_ic_person.xml.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/drawable_ic_heart.xml.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-65:/drawable/ic_heart.xml"
     },
     {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-63:/mipmap-hdpi_ic_launcher_round.webp.flat",

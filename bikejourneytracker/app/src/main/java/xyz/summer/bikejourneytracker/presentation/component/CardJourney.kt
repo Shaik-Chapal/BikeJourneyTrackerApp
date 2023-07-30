@@ -64,10 +64,12 @@ fun CardBeer(
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = stringResource(id = R.string.your_first_brewed_in, beer.returnTime),
+                    text = stringResource(id = R.string.returnTime, beer.returnTime),
                     textAlign = TextAlign.End,
                     modifier = Modifier.fillMaxWidth()
                 )
+                Spacer(modifier = Modifier.height(8.dp))
+
             }
         }
     }

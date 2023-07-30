@@ -3,4 +3,9 @@
 
     <!-- BeerList -->
     <string name="your_first_brewed_in">First brewed in %1$s</string>
+    <string name="returnTime">Return Time :</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="list">List</string>
+    <string name="profile">Profile</string>
 </resources>
