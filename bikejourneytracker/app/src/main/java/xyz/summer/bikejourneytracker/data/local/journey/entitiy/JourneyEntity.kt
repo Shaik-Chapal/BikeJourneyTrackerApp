@@ -17,3 +17,19 @@ data class JourneyEntity(
     val coveredDistance: Int,
     val durationSec: Int
 )
+@Entity(tableName = JourneyDatabaseConst.TABLE_STATION)
+data class StationEntity(
+    val adress: String,
+    val fid: Int,
+    val id: Int,
+    val kapasiteet: Int,
+    val kaupunki: String,
+    val name: String,
+    val namn: String,
+    val nimi: String,
+    val operaattor: String,
+    val osoite: String,
+    val stad: String,
+    val x: Double,
+    val y: Double
+)

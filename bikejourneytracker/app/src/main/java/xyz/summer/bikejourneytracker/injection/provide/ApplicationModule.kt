@@ -19,6 +19,7 @@ import xyz.summer.bikejourneytracker.data.local.journey.constant.JourneyDatabase
 import xyz.summer.bikejourneytracker.data.local.journey.dao.JourneyDao
 import xyz.summer.bikejourneytracker.data.local.journey.database.JourneyDatabase
 import xyz.summer.bikejourneytracker.data.local.journey.entitiy.JourneyEntity
+import xyz.summer.bikejourneytracker.data.local.journey.entitiy.StationEntity
 import xyz.summer.bikejourneytracker.data.remote.journey.api.JourneyApi
 import xyz.summer.bikejourneytracker.data.remote.journey.constant.JourneyApiConst
 import xyz.summer.bikejourneytracker.data.repository.MainRepositoryImp
@@ -104,7 +105,8 @@ object ApplicationModule {
     @Singleton
     fun provideMainRepositoryImp(
         @GetJourneyPager getJourneyPager: Pager<Int, JourneyEntity>,
-    ): MainRepositoryImp = MainRepositoryImp(getJourneyPager)
+        @GetJourneyPager getStationsyPager: Pager<Int, StationEntity>,
+    ): MainRepositoryImp = MainRepositoryImp(getJourneyPager,getStationsyPager)
 
     @Provides
     @Singleton

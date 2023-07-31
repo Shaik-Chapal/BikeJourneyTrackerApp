@@ -5,3 +5,4 @@ import javax.inject.Qualifier
 @Qualifier
 @Retention(AnnotationRetention.RUNTIME)
 annotation class GetJourneyPagingConfig
+annotation class GetStationsPagingConfig
