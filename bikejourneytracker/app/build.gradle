@@ -108,6 +108,17 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
 
 
+    // maps compose
+    implementation 'com.google.maps.android:maps-compose:2.11.5'
+
+    // google map services
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    // google maps utils
+    implementation 'com.google.maps.android:android-maps-utils:3.4.0'
+
+
     // moshi
     implementation 'com.squareup.moshi:moshi-kotlin:1.14.0'
     kapt 'com.squareup.moshi:moshi-kotlin-codegen:1.14.0'

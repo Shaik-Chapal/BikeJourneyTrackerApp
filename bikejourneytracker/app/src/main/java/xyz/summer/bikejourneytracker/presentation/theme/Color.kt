@@ -10,6 +10,20 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
+val purple200 = Color(0xFF651FFF)
+val purple500 = Color(0xFF6200EA)
+val background = Color(0xFF2B292B)
+val background800 = Color(0xFF424242)
+val background900 = Color(0xFF212121)
+val white87 = Color(0Xddffffff)
+
+val darkPrimary = Color(0xff242316)
+
+val blue200 = Color(0xff91a4fc)
+val Green500 = Color(0xFF1EB980)
+val DarkBlue900 = Color(0xFF26282F)
+val orangeError = Color(0xFFF94701)
+val BlackTransparent90 = Color(0x90000000)
 
 val Color_Prime = Color(0xFF416CE1)
 val Color_Sec = Color(0xFFA0B3E2)

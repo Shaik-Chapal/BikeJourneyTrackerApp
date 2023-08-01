@@ -1,11 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [io.coil-kt:coil-compose:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\c7f1a57edff2e358259363802e0abda4\transformed\coil-compose-2.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\15dfdb05cc40a9f51fa352bb7680c33a\transformed\hilt-navigation-compose-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-compose:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\eaace5faaadf6dbd02fa6df856f9d8c3\transformed\navigation-compose-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:maps-compose:2.11.5] C:\Users\disah\.gradle\caches\transforms-3\9e3b305be1b493b1d747bb2c249a49c9\transformed\maps-compose-2.11.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.material3:material3:1.0.1] C:\Users\disah\.gradle\caches\transforms-3\174798e8b96f4745f118382506c48ebb\transformed\material3-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-ktx:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\321094317677ea13f68c67ce44784c74\transformed\room-ktx-2.6.0-alpha01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:17:1-31:12
@@ -14,34 +16,39 @@ MERGED from [androidx.paging:paging-runtime:3.2.0-alpha05] C:\Users\disah\.gradl
 MERGED from [androidx.paging:paging-runtime-ktx:3.2.0-alpha05] C:\Users\disah\.gradle\caches\transforms-3\741cc40f744fc4865e2c00789780d7bd\transformed\paging-runtime-ktx-3.2.0-alpha05\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.paging:paging-compose:1.0.0-alpha19] C:\Users\disah\.gradle\caches\transforms-3\4685d0c0d9837950def6ad43547bf909\transformed\paging-compose-1.0.0-alpha19\AndroidManifest.xml:17:1-22:12
 MERGED from [io.coil-kt:coil-compose-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\99b9e3a0e48f7fbc6caa510ebc09263a\transformed\coil-compose-base-2.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\834753280d7be952dfafc144f2e75182\transformed\navigation-compose-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\80dad83be7cf81dac345dfe99c38f069\transformed\material-ripple-1.4.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.foundation:foundation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\35c243db83ba19d70c44ee9e118baf61\transformed\foundation-1.4.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-util:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\15a74a92a4aa9f6d669d2361d7143431\transformed\ui-util-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-text:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\87a488de7ce50dcda446573c18f8ffa5\transformed\ui-text-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ee4dd91897fbc42852f5cefc9a9a927\transformed\ui-tooling-preview-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-graphics:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\a325a2b17663a2663880f8d21947762d\transformed\ui-graphics-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.0] C:\Users\disah\.gradle\caches\transforms-3\a7df6b39b98e27c3070b5fa5499305cc\transformed\accompanist-drawablepainter-0.30.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.compose.ui:ui:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\96a7b133fd81717e419cf3ef074acf2b\transformed\ui-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.hilt:hilt-navigation:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\485856fb4fda750b42d8e7018b21fcfc\transformed\hilt-navigation-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:hilt-android:2.46] C:\Users\disah\.gradle\caches\transforms-3\a62929d199c0e5f355f9307c5da7ef04\transformed\hilt-android-2.46\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] C:\Users\disah\.gradle\caches\transforms-3\afb5818e488c3cd28fd7a370abaa1632\transformed\maps-ktx-3.3.0\AndroidManifest.xml:18:1-25:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\disah\.gradle\caches\transforms-3\846ce4ab31cd039e2e09b6dc1bd7813a\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\disah\.gradle\caches\transforms-3\c8277b9359d405c888373a430ac42ccc\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\disah\.gradle\caches\transforms-3\fc8e92c5d4635f2487f740491126f486\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\06e9946f8fb91fc18e740e8fd4c1514f\transformed\activity-1.7.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\f12221f5cf6b188d5f5b9328c71e51ef\transformed\navigation-runtime-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\db0817e126be4ef6d4c019bc20e9b4a4\transformed\navigation-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\37b0b6289e09a2bf004e4fe38a57e03f\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\9c590b77ab9fd92be55594402f6209d3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\3a4363531c87eaeca95b33542863c949\transformed\activity-ktx-1.7.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-compose:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\9f19bb3dce76b1aa255bb55b5a5bf448\transformed\activity-compose-1.7.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\0c3f37a87ebb71c33ea05afab27c6105\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [io.coil-kt:coil:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\d78055fbec3b21553b415bc232e30263\transformed\coil-2.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\57ed3ec6aa297fec0ab614c92de60c71\transformed\coil-base-2.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\614b45727d557c274a10f0992b5e9fd5\transformed\navigation-common-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\4078603b41b198998bab5153a878342f\transformed\navigation-common-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\4bb4595c3e28ece52e9b1ff9ab9102a8\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\7343a626c36541a7dcb0b1e6341f1b0f\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\disah\.gradle\caches\transforms-3\bced29ef3356651d6376fde1a71516e8\transformed\core-ktx-1.10.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\42c4097b5e01457de3667f8d9a074e0c\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\0d0d2ad0bec454181fc9e11aeeefd7cf\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
@@ -68,6 +75,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] C:\Users\disa
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\disah\.gradle\caches\transforms-3\c15301fb0a7dfd708c9046c2bb8d6767\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-saveable:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f82061fb40618111c91ed6ebce284297\transformed\runtime-saveable-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\55016d3b757c836616b2768ef166f11c\transformed\runtime-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\4db738861b064c9bc945742f9c89ebab\transformed\sqlite-framework-2.4.0-alpha01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\054512c6f36df82d723ee84e731cedcc\transformed\sqlite-2.4.0-alpha01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\c3708914906c30ad09c3b454ac277905\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
@@ -79,39 +87,53 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\disah\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\86e4f6f97e683ce9e8a2deeefc2c52fb\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\disah\.gradle\caches\transforms-3\3af07e4aab553d1292092be595cd20d0\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.46] C:\Users\disah\.gradle\caches\transforms-3\1fc71ed3f13a32d2799702632dd9332c\transformed\dagger-lint-aar-2.46\AndroidManifest.xml:16:1-19:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:7:5-30:19
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:7:5-32:19
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\disah\.gradle\caches\transforms-3\846ce4ab31cd039e2e09b6dc1bd7813a\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\disah\.gradle\caches\transforms-3\846ce4ab31cd039e2e09b6dc1bd7813a\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\disah\.gradle\caches\transforms-3\c8277b9359d405c888373a430ac42ccc\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\disah\.gradle\caches\transforms-3\c8277b9359d405c888373a430ac42ccc\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\0d0d2ad0bec454181fc9e11aeeefd7cf\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\0d0d2ad0bec454181fc9e11aeeefd7cf\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.10.0] C:\Users\disah\.gradle\caches\transforms-3\3114c7f6ef681faf01fc1648ebf7b455\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.10.0] C:\Users\disah\.gradle\caches\transforms-3\3114c7f6ef681faf01fc1648ebf7b455\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\disah\.gradle\caches\transforms-3\9c1542940c02c80a540575f4b9f54930\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\disah\.gradle\caches\transforms-3\9c1542940c02c80a540575f4b9f54930\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:9:5-13:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\c1614fc53c21b6c35ef0e8c043a54260\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\c1614fc53c21b6c35ef0e8c043a54260\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\disah\.gradle\caches\transforms-3\0171841d9bea425f26523f885134b4e0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -160,6 +182,12 @@ category#android.intent.category.LAUNCHER
 ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:9-123
+	android:value
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:66-121
+	android:name
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:20-65
 uses-sdk
 INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
@@ -168,6 +196,10 @@ MERGED from [io.coil-kt:coil-compose:2.3.0] C:\Users\disah\.gradle\caches\transf
 MERGED from [io.coil-kt:coil-compose:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\c7f1a57edff2e358259363802e0abda4\transformed\coil-compose-2.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\15dfdb05cc40a9f51fa352bb7680c33a\transformed\hilt-navigation-compose-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\15dfdb05cc40a9f51fa352bb7680c33a\transformed\hilt-navigation-compose-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\eaace5faaadf6dbd02fa6df856f9d8c3\transformed\navigation-compose-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\eaace5faaadf6dbd02fa6df856f9d8c3\transformed\navigation-compose-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:maps-compose:2.11.5] C:\Users\disah\.gradle\caches\transforms-3\9e3b305be1b493b1d747bb2c249a49c9\transformed\maps-compose-2.11.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:maps-compose:2.11.5] C:\Users\disah\.gradle\caches\transforms-3\9e3b305be1b493b1d747bb2c249a49c9\transformed\maps-compose-2.11.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.material3:material3:1.0.1] C:\Users\disah\.gradle\caches\transforms-3\174798e8b96f4745f118382506c48ebb\transformed\material3-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.0.1] C:\Users\disah\.gradle\caches\transforms-3\174798e8b96f4745f118382506c48ebb\transformed\material3-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\321094317677ea13f68c67ce44784c74\transformed\room-ktx-2.6.0-alpha01\AndroidManifest.xml:20:5-44
@@ -184,28 +216,26 @@ MERGED from [androidx.paging:paging-compose:1.0.0-alpha19] C:\Users\disah\.gradl
 MERGED from [androidx.paging:paging-compose:1.0.0-alpha19] C:\Users\disah\.gradle\caches\transforms-3\4685d0c0d9837950def6ad43547bf909\transformed\paging-compose-1.0.0-alpha19\AndroidManifest.xml:20:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\99b9e3a0e48f7fbc6caa510ebc09263a\transformed\coil-compose-base-2.3.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\99b9e3a0e48f7fbc6caa510ebc09263a\transformed\coil-compose-base-2.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\834753280d7be952dfafc144f2e75182\transformed\navigation-compose-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-compose:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\834753280d7be952dfafc144f2e75182\transformed\navigation-compose-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\80dad83be7cf81dac345dfe99c38f069\transformed\material-ripple-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\80dad83be7cf81dac345dfe99c38f069\transformed\material-ripple-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.foundation:foundation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\35c243db83ba19d70c44ee9e118baf61\transformed\foundation-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.foundation:foundation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\35c243db83ba19d70c44ee9e118baf61\transformed\foundation-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-util:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\15a74a92a4aa9f6d669d2361d7143431\transformed\ui-util-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-util:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\15a74a92a4aa9f6d669d2361d7143431\transformed\ui-util-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-text:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\87a488de7ce50dcda446573c18f8ffa5\transformed\ui-text-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-text:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\87a488de7ce50dcda446573c18f8ffa5\transformed\ui-text-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ee4dd91897fbc42852f5cefc9a9a927\transformed\ui-tooling-preview-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ee4dd91897fbc42852f5cefc9a9a927\transformed\ui-tooling-preview-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-graphics:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\a325a2b17663a2663880f8d21947762d\transformed\ui-graphics-1.4.3\AndroidManifest.xml:20:5-44
@@ -218,14 +248,26 @@ MERGED from [androidx.hilt:hilt-navigation:1.0.0] C:\Users\disah\.gradle\caches\
 MERGED from [androidx.hilt:hilt-navigation:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\485856fb4fda750b42d8e7018b21fcfc\transformed\hilt-navigation-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.dagger:hilt-android:2.46] C:\Users\disah\.gradle\caches\transforms-3\a62929d199c0e5f355f9307c5da7ef04\transformed\hilt-android-2.46\AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:hilt-android:2.46] C:\Users\disah\.gradle\caches\transforms-3\a62929d199c0e5f355f9307c5da7ef04\transformed\hilt-android-2.46\AndroidManifest.xml:18:3-42
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] C:\Users\disah\.gradle\caches\transforms-3\afb5818e488c3cd28fd7a370abaa1632\transformed\maps-ktx-3.3.0\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] C:\Users\disah\.gradle\caches\transforms-3\afb5818e488c3cd28fd7a370abaa1632\transformed\maps-ktx-3.3.0\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\disah\.gradle\caches\transforms-3\846ce4ab31cd039e2e09b6dc1bd7813a\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\disah\.gradle\caches\transforms-3\846ce4ab31cd039e2e09b6dc1bd7813a\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\disah\.gradle\caches\transforms-3\c8277b9359d405c888373a430ac42ccc\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\disah\.gradle\caches\transforms-3\c8277b9359d405c888373a430ac42ccc\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\disah\.gradle\caches\transforms-3\fc8e92c5d4635f2487f740491126f486\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\disah\.gradle\caches\transforms-3\fc8e92c5d4635f2487f740491126f486\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\06e9946f8fb91fc18e740e8fd4c1514f\transformed\activity-1.7.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\06e9946f8fb91fc18e740e8fd4c1514f\transformed\activity-1.7.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\f12221f5cf6b188d5f5b9328c71e51ef\transformed\navigation-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\f12221f5cf6b188d5f5b9328c71e51ef\transformed\navigation-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\db0817e126be4ef6d4c019bc20e9b4a4\transformed\navigation-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\db0817e126be4ef6d4c019bc20e9b4a4\transformed\navigation-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\37b0b6289e09a2bf004e4fe38a57e03f\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\37b0b6289e09a2bf004e4fe38a57e03f\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\9c590b77ab9fd92be55594402f6209d3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\9c590b77ab9fd92be55594402f6209d3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\3a4363531c87eaeca95b33542863c949\transformed\activity-ktx-1.7.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\3a4363531c87eaeca95b33542863c949\transformed\activity-ktx-1.7.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-compose:1.7.1] C:\Users\disah\.gradle\caches\transforms-3\9f19bb3dce76b1aa255bb55b5a5bf448\transformed\activity-compose-1.7.1\AndroidManifest.xml:20:5-44
@@ -236,10 +278,10 @@ MERGED from [io.coil-kt:coil:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\d
 MERGED from [io.coil-kt:coil:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\d78055fbec3b21553b415bc232e30263\transformed\coil-2.3.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\57ed3ec6aa297fec0ab614c92de60c71\transformed\coil-base-2.3.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\57ed3ec6aa297fec0ab614c92de60c71\transformed\coil-base-2.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\614b45727d557c274a10f0992b5e9fd5\transformed\navigation-common-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\614b45727d557c274a10f0992b5e9fd5\transformed\navigation-common-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\4078603b41b198998bab5153a878342f\transformed\navigation-common-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.0] C:\Users\disah\.gradle\caches\transforms-3\4078603b41b198998bab5153a878342f\transformed\navigation-common-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\4bb4595c3e28ece52e9b1ff9ab9102a8\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\4bb4595c3e28ece52e9b1ff9ab9102a8\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\7343a626c36541a7dcb0b1e6341f1b0f\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\7343a626c36541a7dcb0b1e6341f1b0f\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\disah\.gradle\caches\transforms-3\bced29ef3356651d6376fde1a71516e8\transformed\core-ktx-1.10.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\disah\.gradle\caches\transforms-3\bced29ef3356651d6376fde1a71516e8\transformed\core-ktx-1.10.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\42c4097b5e01457de3667f8d9a074e0c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -292,6 +334,8 @@ MERGED from [androidx.compose.runtime:runtime-saveable:1.4.3] C:\Users\disah\.gr
 MERGED from [androidx.compose.runtime:runtime-saveable:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f82061fb40618111c91ed6ebce284297\transformed\runtime-saveable-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\55016d3b757c836616b2768ef166f11c\transformed\runtime-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\55016d3b757c836616b2768ef166f11c\transformed\runtime-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\4db738861b064c9bc945742f9c89ebab\transformed\sqlite-framework-2.4.0-alpha01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\4db738861b064c9bc945742f9c89ebab\transformed\sqlite-framework-2.4.0-alpha01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\054512c6f36df82d723ee84e731cedcc\transformed\sqlite-2.4.0-alpha01\AndroidManifest.xml:20:5-44
@@ -336,6 +380,44 @@ ADDED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\cac
 		ADDED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:26:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:25:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\5b6d22dd0bc61df216f478a5ff1e526c\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] C:\Users\disah\.gradle\caches\transforms-3\620cf765510b481a8ed2740bd9d4c399\transformed\android-maps-utils-3.4.0\AndroidManifest.xml:10:9-12:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\94310e038140d20893d47b366699873b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\disah\.gradle\caches\transforms-3\0d0d2ad0bec454181fc9e11aeeefd7cf\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\disah\.gradle\caches\transforms-3\9c1542940c02c80a540575f4b9f54930\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20

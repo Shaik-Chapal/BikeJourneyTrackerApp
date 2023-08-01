@@ -21,6 +21,8 @@ import xyz.summer.bikejourneytracker.presentation.component.CardBeer
 import xyz.summer.bikejourneytracker.presentation.component.ProgressBarCenter
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel
 
+import androidx.navigation.NavController
+
 @Composable
 fun ListScreen(
     snackbar: SnackbarHostState = remember { SnackbarHostState() },
@@ -78,3 +80,12 @@ fun ListScreen(
         }
     }
 }
+
+
+//@Composable
+//fun CardBeer(beer: Beer, onClick: () -> Unit) {
+//    // Implement your card UI here
+//    // When the card is clicked, call the onClick lambda to navigate to the details screen
+//    // You can display the beer details or any other UI elements inside the CardBeer composable
+//    // and handle the click event appropriately.
+//}

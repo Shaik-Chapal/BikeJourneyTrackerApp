@@ -1,5 +1,6 @@
 package xyz.summer.bikejourneytracker.presentation.component
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -11,6 +12,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -23,6 +25,7 @@ import xyz.summer.bikejourneytracker.R
 
 import xyz.summer.bikejourneytracker.domain.model.JourneyModel
 import xyz.summer.bikejourneytracker.domain.model.StationModel
+import xyz.summer.bikejourneytracker.presentation.theme.md_theme_light_tertiary
 
 
 @Composable
@@ -30,6 +33,9 @@ fun CardBeer(
     beer: JourneyModel,
 ) {
     Card(
+        colors = CardDefaults.cardColors(
+            containerColor = md_theme_light_tertiary,
+        ),
         modifier = Modifier.padding(horizontal = 10.dp)
     ) {
         Row(
@@ -77,9 +83,14 @@ fun CardBeer(
 @Composable
 fun CardStation(
     beer: StationModel,
+    onClick: () -> Unit,
 ) {
     Card(
+        colors = CardDefaults.cardColors(
+            containerColor = md_theme_light_tertiary,
+        ),
         modifier = Modifier.padding(horizontal = 10.dp)
+            .clickable(onClick = onClick),
     ) {
         Row(
             modifier = Modifier

@@ -14,6 +14,8 @@ sealed class NavItem {
 
     object List :
         Item(path = NavPath.LIST.toString(), title = NavTitle.LIST, icon = Icons.Default.List)
+    object HOMEMAP :
+        Item(path = NavPath.HOMEMAP.toString(), title = NavTitle.HOMEMAP, icon = Icons.Default.List)
 
 
 }
