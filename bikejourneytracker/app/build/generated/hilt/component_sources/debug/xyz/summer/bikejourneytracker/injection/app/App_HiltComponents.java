@@ -48,6 +48,7 @@ import javax.inject.Singleton;
 import xyz.summer.bikejourneytracker.injection.bind.ApplicationModule;
 import xyz.summer.bikejourneytracker.presentation.activity.MainActivity_GeneratedInjector;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel_HiltModules;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel_HiltModules;
 
 @Generated("dagger.hilt.processor.internal.root.RootProcessor")
 public final class App_HiltComponents {
@@ -157,7 +158,8 @@ public final class App_HiltComponents {
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
           BeerListViewModel_HiltModules.KeyModule.class,
-          HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class
+          HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
+          StationListViewModel_HiltModules.KeyModule.class
       }
   )
   @ActivityRetainedScoped
@@ -194,7 +196,8 @@ public final class App_HiltComponents {
   @Subcomponent(
       modules = {
           BeerListViewModel_HiltModules.BindsModule.class,
-          HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          StationListViewModel_HiltModules.BindsModule.class
       }
   )
   @ViewModelScoped

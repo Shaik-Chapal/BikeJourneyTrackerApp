@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import xyz.summer.bikejourneytracker.R
 
 import xyz.summer.bikejourneytracker.domain.model.JourneyModel
-
+import xyz.summer.bikejourneytracker.domain.model.StationModel
 
 
 @Composable
@@ -65,6 +65,55 @@ fun CardBeer(
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = stringResource(id = R.string.returnTime, beer.returnTime),
+                    textAlign = TextAlign.End,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+
+            }
+        }
+    }
+}
+@Composable
+fun CardStation(
+    beer: StationModel,
+) {
+    Card(
+        modifier = Modifier.padding(horizontal = 10.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(IntrinsicSize.Max)
+                .padding(16.dp)
+        ) {
+
+            Spacer(modifier = Modifier.width(16.dp))
+            Column(
+                verticalArrangement = Arrangement.Center,
+                modifier = Modifier
+                    .weight(3F)
+                    .fillMaxHeight()
+            ) {
+                Text(
+                    text = beer.name,
+                    style = MaterialTheme.typography.headlineSmall,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = beer.adress,
+                    fontStyle = FontStyle.Italic,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = beer.operaattor,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = stringResource(id = R.string.returnTime, beer.osoite),
                     textAlign = TextAlign.End,
                     modifier = Modifier.fillMaxWidth()
                 )

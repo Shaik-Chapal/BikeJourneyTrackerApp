@@ -41,6 +41,8 @@ import hilt_aggregated_deps._xyz_summer_bikejourneytracker_injection_provide_App
 import hilt_aggregated_deps._xyz_summer_bikejourneytracker_presentation_activity_MainActivity_GeneratedInjector;
 import hilt_aggregated_deps._xyz_summer_bikejourneytracker_presentation_viewmodel_BeerListViewModel_HiltModules_BindsModule;
 import hilt_aggregated_deps._xyz_summer_bikejourneytracker_presentation_viewmodel_BeerListViewModel_HiltModules_KeyModule;
+import hilt_aggregated_deps._xyz_summer_bikejourneytracker_presentation_viewmodel_StationListViewModel_HiltModules_BindsModule;
+import hilt_aggregated_deps._xyz_summer_bikejourneytracker_presentation_viewmodel_StationListViewModel_HiltModules_KeyModule;
 
 @ComponentTreeDeps(
     rootDeps = _xyz_summer_bikejourneytracker_injection_app_App.class,
@@ -85,7 +87,9 @@ import hilt_aggregated_deps._xyz_summer_bikejourneytracker_presentation_viewmode
         _xyz_summer_bikejourneytracker_injection_provide_ApplicationModule.class,
         _xyz_summer_bikejourneytracker_presentation_activity_MainActivity_GeneratedInjector.class,
         _xyz_summer_bikejourneytracker_presentation_viewmodel_BeerListViewModel_HiltModules_BindsModule.class,
-        _xyz_summer_bikejourneytracker_presentation_viewmodel_BeerListViewModel_HiltModules_KeyModule.class
+        _xyz_summer_bikejourneytracker_presentation_viewmodel_BeerListViewModel_HiltModules_KeyModule.class,
+        _xyz_summer_bikejourneytracker_presentation_viewmodel_StationListViewModel_HiltModules_BindsModule.class,
+        _xyz_summer_bikejourneytracker_presentation_viewmodel_StationListViewModel_HiltModules_KeyModule.class
     }
 )
 public final class App_ComponentTreeDeps {

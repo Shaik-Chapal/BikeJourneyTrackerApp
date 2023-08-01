@@ -15,9 +15,7 @@ class GetJourneySource(
     private val dao: JourneyDao,
 ) : RemoteMediator<Int, JourneyEntity>() {
 
-    ///////////////////////////////////////////////////////////////////////////
-    // API
-    ///////////////////////////////////////////////////////////////////////////
+
 
     override suspend fun load(loadType: LoadType, state: PagingState<Int, JourneyEntity>): MediatorResult {
         return try {

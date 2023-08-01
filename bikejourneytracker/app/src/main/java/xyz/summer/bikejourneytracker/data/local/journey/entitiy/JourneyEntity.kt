@@ -20,6 +20,7 @@ data class JourneyEntity(
 @Entity(tableName = JourneyDatabaseConst.TABLE_STATION)
 data class StationEntity(
     val adress: String,
+    @PrimaryKey
     val fid: Int,
     val id: Int,
     val kapasiteet: Int,

@@ -27,7 +27,9 @@ import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
+import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
+import dagger.internal.SetBuilder;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
@@ -35,12 +37,17 @@ import javax.annotation.processing.Generated;
 import javax.inject.Provider;
 import retrofit2.converter.moshi.MoshiConverterFactory;
 import xyz.summer.bikejourneytracker.data.local.journey.dao.JourneyDao;
+import xyz.summer.bikejourneytracker.data.local.journey.dao.StationDao;
 import xyz.summer.bikejourneytracker.data.local.journey.database.JourneyDatabase;
+import xyz.summer.bikejourneytracker.data.local.journey.database.StationDatabase;
 import xyz.summer.bikejourneytracker.data.local.journey.entitiy.JourneyEntity;
+import xyz.summer.bikejourneytracker.data.local.journey.entitiy.StationEntity;
 import xyz.summer.bikejourneytracker.data.remote.journey.api.JourneyApi;
 import xyz.summer.bikejourneytracker.data.repository.MainRepositoryImp;
 import xyz.summer.bikejourneytracker.data.source.GetJourneySource;
+import xyz.summer.bikejourneytracker.data.source.GetStationSource;
 import xyz.summer.bikejourneytracker.domain.usecase.GetJourneys;
+import xyz.summer.bikejourneytracker.domain.usecase.GetStations;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideBeerApiFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideBeerDaoFactory;
@@ -49,13 +56,21 @@ import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_Provide
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetBeersPagerFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetBeersPagingConfigFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetBeersSourceFactory;
+import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetStationSourceFactory;
+import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetStationsFactory;
+import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetStationsPagerFactory;
+import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideGetStationsPagingConfigFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideKotlinJsonAdapterFactoryFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideMainRepositoryImpFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideMoshiConverterFactoryFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideMoshiFactory;
+import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideStationDaoFactory;
+import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideStationDatabaseFactory;
 import xyz.summer.bikejourneytracker.presentation.activity.MainActivity;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel_HiltModules_KeyModule_ProvideFactory;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel_HiltModules_KeyModule_ProvideFactory;
 
 @DaggerGenerated
 @Generated(
@@ -393,7 +408,7 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     @Override
     public Set<String> getViewModelKeys() {
-      return Collections.<String>singleton(BeerListViewModel_HiltModules_KeyModule_ProvideFactory.provide());
+      return SetBuilder.<String>newSetBuilder(2).add(BeerListViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(StationListViewModel_HiltModules_KeyModule_ProvideFactory.provide()).build();
     }
 
     @Override
@@ -425,6 +440,8 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     private Provider<BeerListViewModel> beerListViewModelProvider;
 
+    private Provider<StationListViewModel> stationListViewModelProvider;
+
     private ViewModelCImpl(SingletonCImpl singletonCImpl,
         ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam,
         ViewModelLifecycle viewModelLifecycleParam) {
@@ -439,11 +456,12 @@ public final class DaggerApp_HiltComponents_SingletonC {
     private void initialize(final SavedStateHandle savedStateHandleParam,
         final ViewModelLifecycle viewModelLifecycleParam) {
       this.beerListViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
+      this.stationListViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
     }
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return Collections.<String, Provider<ViewModel>>singletonMap("xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel", ((Provider) beerListViewModelProvider));
+      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(2).put("xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel", ((Provider) beerListViewModelProvider)).put("xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel", ((Provider) stationListViewModelProvider)).build();
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -469,6 +487,9 @@ public final class DaggerApp_HiltComponents_SingletonC {
         switch (id) {
           case 0: // xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel 
           return (T) new BeerListViewModel(singletonCImpl.provideGetBeersProvider.get());
+
+          case 1: // xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel 
+          return (T) new StationListViewModel(singletonCImpl.provideGetStationsProvider.get());
 
           default: throw new AssertionError(id);
         }
@@ -567,9 +588,21 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     private Provider<Pager<Integer, JourneyEntity>> provideGetBeersPagerProvider;
 
+    private Provider<PagingConfig> provideGetStationsPagingConfigProvider;
+
+    private Provider<StationDatabase> provideStationDatabaseProvider;
+
+    private Provider<StationDao> provideStationDaoProvider;
+
+    private Provider<GetStationSource> provideGetStationSourceProvider;
+
+    private Provider<Pager<Integer, StationEntity>> provideGetStationsPagerProvider;
+
     private Provider<MainRepositoryImp> provideMainRepositoryImpProvider;
 
     private Provider<GetJourneys> provideGetBeersProvider;
+
+    private Provider<GetStations> provideGetStationsProvider;
 
     private SingletonCImpl(ApplicationContextModule applicationContextModuleParam) {
       this.applicationContextModule = applicationContextModuleParam;
@@ -588,8 +621,14 @@ public final class DaggerApp_HiltComponents_SingletonC {
       this.provideBeerDaoProvider = DoubleCheck.provider(new SwitchingProvider<JourneyDao>(singletonCImpl, 9));
       this.provideGetBeersSourceProvider = DoubleCheck.provider(new SwitchingProvider<GetJourneySource>(singletonCImpl, 4));
       this.provideGetBeersPagerProvider = DoubleCheck.provider(new SwitchingProvider<Pager<Integer, JourneyEntity>>(singletonCImpl, 2));
+      this.provideGetStationsPagingConfigProvider = DoubleCheck.provider(new SwitchingProvider<PagingConfig>(singletonCImpl, 12));
+      this.provideStationDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<StationDatabase>(singletonCImpl, 15));
+      this.provideStationDaoProvider = DoubleCheck.provider(new SwitchingProvider<StationDao>(singletonCImpl, 14));
+      this.provideGetStationSourceProvider = DoubleCheck.provider(new SwitchingProvider<GetStationSource>(singletonCImpl, 13));
+      this.provideGetStationsPagerProvider = DoubleCheck.provider(new SwitchingProvider<Pager<Integer, StationEntity>>(singletonCImpl, 11));
       this.provideMainRepositoryImpProvider = DoubleCheck.provider(new SwitchingProvider<MainRepositoryImp>(singletonCImpl, 1));
       this.provideGetBeersProvider = DoubleCheck.provider(new SwitchingProvider<GetJourneys>(singletonCImpl, 0));
+      this.provideGetStationsProvider = DoubleCheck.provider(new SwitchingProvider<GetStations>(singletonCImpl, 16));
     }
 
     @Override
@@ -629,7 +668,7 @@ public final class DaggerApp_HiltComponents_SingletonC {
           return (T) ApplicationModule_ProvideGetBeersFactory.provideGetBeers(singletonCImpl.provideMainRepositoryImpProvider.get());
 
           case 1: // xyz.summer.bikejourneytracker.data.repository.MainRepositoryImp 
-          return (T) ApplicationModule_ProvideMainRepositoryImpFactory.provideMainRepositoryImp(singletonCImpl.provideGetBeersPagerProvider.get());
+          return (T) ApplicationModule_ProvideMainRepositoryImpFactory.provideMainRepositoryImp(singletonCImpl.provideGetBeersPagerProvider.get(), singletonCImpl.provideGetStationsPagerProvider.get());
 
           case 2: // @xyz.summer.bikejourneytracker.injection.name.GetJourneyPager androidx.paging.Pager<java.lang.Integer,xyz.summer.bikejourneytracker.data.local.journey.entitiy.JourneyEntity> 
           return (T) ApplicationModule_ProvideGetBeersPagerFactory.provideGetBeersPager(singletonCImpl.provideGetBeersPagingConfigProvider.get(), singletonCImpl.provideGetBeersSourceProvider.get(), singletonCImpl.provideBeerDaoProvider.get());
@@ -657,6 +696,24 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
           case 10: // xyz.summer.bikejourneytracker.data.local.journey.database.JourneyDatabase 
           return (T) ApplicationModule_ProvideBeerDatabaseFactory.provideBeerDatabase(ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
+
+          case 11: // @xyz.summer.bikejourneytracker.injection.name.station.GetStationsPager androidx.paging.Pager<java.lang.Integer,xyz.summer.bikejourneytracker.data.local.journey.entitiy.StationEntity> 
+          return (T) ApplicationModule_ProvideGetStationsPagerFactory.provideGetStationsPager(singletonCImpl.provideGetStationsPagingConfigProvider.get(), singletonCImpl.provideGetStationSourceProvider.get(), singletonCImpl.provideStationDaoProvider.get());
+
+          case 12: // @xyz.summer.bikejourneytracker.injection.name.station.GetStationsPagingConfig androidx.paging.PagingConfig 
+          return (T) ApplicationModule_ProvideGetStationsPagingConfigFactory.provideGetStationsPagingConfig();
+
+          case 13: // xyz.summer.bikejourneytracker.data.source.GetStationSource 
+          return (T) ApplicationModule_ProvideGetStationSourceFactory.provideGetStationSource(singletonCImpl.provideBeerApiProvider.get(), singletonCImpl.provideStationDaoProvider.get());
+
+          case 14: // xyz.summer.bikejourneytracker.data.local.journey.dao.StationDao 
+          return (T) ApplicationModule_ProvideStationDaoFactory.provideStationDao(singletonCImpl.provideStationDatabaseProvider.get());
+
+          case 15: // xyz.summer.bikejourneytracker.data.local.journey.database.StationDatabase 
+          return (T) ApplicationModule_ProvideStationDatabaseFactory.provideStationDatabase(ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
+
+          case 16: // xyz.summer.bikejourneytracker.domain.usecase.GetStations 
+          return (T) ApplicationModule_ProvideGetStationsFactory.provideGetStations(singletonCImpl.provideMainRepositoryImpProvider.get());
 
           default: throw new AssertionError(id);
         }

@@ -17,17 +17,23 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.create
 import xyz.summer.bikejourneytracker.data.local.journey.constant.JourneyDatabaseConst
 import xyz.summer.bikejourneytracker.data.local.journey.dao.JourneyDao
+import xyz.summer.bikejourneytracker.data.local.journey.dao.StationDao
 import xyz.summer.bikejourneytracker.data.local.journey.database.JourneyDatabase
+import xyz.summer.bikejourneytracker.data.local.journey.database.StationDatabase
 import xyz.summer.bikejourneytracker.data.local.journey.entitiy.JourneyEntity
 import xyz.summer.bikejourneytracker.data.local.journey.entitiy.StationEntity
 import xyz.summer.bikejourneytracker.data.remote.journey.api.JourneyApi
 import xyz.summer.bikejourneytracker.data.remote.journey.constant.JourneyApiConst
 import xyz.summer.bikejourneytracker.data.repository.MainRepositoryImp
 import xyz.summer.bikejourneytracker.data.source.GetJourneySource
+import xyz.summer.bikejourneytracker.data.source.GetStationSource
 import xyz.summer.bikejourneytracker.domain.repository.MainRepository
 import xyz.summer.bikejourneytracker.domain.usecase.GetJourneys
+import xyz.summer.bikejourneytracker.domain.usecase.GetStations
 import xyz.summer.bikejourneytracker.injection.name.GetJourneyPager
 import xyz.summer.bikejourneytracker.injection.name.GetJourneyPagingConfig
+import xyz.summer.bikejourneytracker.injection.name.station.GetStationsPager
+import xyz.summer.bikejourneytracker.injection.name.station.GetStationsPagingConfig
 import javax.inject.Singleton
 
 @Module
@@ -68,6 +74,20 @@ object ApplicationModule {
 
     @Provides
     @Singleton
+    fun provideStationDatabase(application: Application): StationDatabase = Room.databaseBuilder(
+        context = application,
+        klass = StationDatabase::class.java,
+        name = JourneyDatabaseConst.NAME_STATION
+    )
+        .fallbackToDestructiveMigration()
+        .build()
+
+    @Provides
+    @Singleton
+    fun provideStationDao(journeyDatabase: StationDatabase): StationDao = journeyDatabase.stationDao()
+
+    @Provides
+    @Singleton
     fun provideBeerDao(journeyDatabase: JourneyDatabase): JourneyDao = journeyDatabase.beerDao()
 
     @Provides
@@ -80,6 +100,24 @@ object ApplicationModule {
         dao = journeyDao
     )
 
+
+    @Provides
+    @Singleton
+    fun provideGetStationSource(
+        journeyApi: JourneyApi,
+        journeyDao: StationDao,
+    ): GetStationSource = GetStationSource(
+        api = journeyApi,
+        dao = journeyDao
+    )
+    @Provides
+    @Singleton
+    @GetStationsPagingConfig
+    fun provideGetStationsPagingConfig(): PagingConfig = PagingConfig(
+        pageSize = JourneyApiConst.GetJourneys.LIMIT,
+        enablePlaceholders = JourneyApiConst.GetJourneys.ENABLE_PLACEHOLDERS
+    )
+
     @Provides
     @Singleton
     @GetJourneyPagingConfig
@@ -88,6 +126,18 @@ object ApplicationModule {
         enablePlaceholders = JourneyApiConst.GetJourneys.ENABLE_PLACEHOLDERS
     )
 
+    @Provides
+    @Singleton
+    @GetStationsPager
+    fun provideGetStationsPager(
+        @GetStationsPagingConfig getStationsPagingConfig: PagingConfig,
+        getJourneySource: GetStationSource,
+        beersDao: StationDao,
+    ): Pager<Int, StationEntity> = Pager(
+        config = getStationsPagingConfig,
+        remoteMediator = getJourneySource,
+        pagingSourceFactory = { beersDao.getStation() }
+    )
     @Provides
     @Singleton
     @GetJourneyPager
@@ -105,10 +155,15 @@ object ApplicationModule {
     @Singleton
     fun provideMainRepositoryImp(
         @GetJourneyPager getJourneyPager: Pager<Int, JourneyEntity>,
-        @GetJourneyPager getStationsyPager: Pager<Int, StationEntity>,
+        @GetStationsPager getStationsyPager: Pager<Int, StationEntity>,
     ): MainRepositoryImp = MainRepositoryImp(getJourneyPager,getStationsyPager)
+
+
 
     @Provides
     @Singleton
     fun provideGetBeers(mainRepository: MainRepository): GetJourneys = GetJourneys(mainRepository)
+    @Provides
+    @Singleton
+    fun provideGetStations(mainRepository: MainRepository): GetStations = GetStations(mainRepository)
 }
