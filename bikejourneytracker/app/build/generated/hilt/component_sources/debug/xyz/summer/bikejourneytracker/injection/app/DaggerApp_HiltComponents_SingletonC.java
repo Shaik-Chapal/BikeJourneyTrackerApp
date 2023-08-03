@@ -43,6 +43,7 @@ import xyz.summer.bikejourneytracker.data.local.journey.database.StationDatabase
 import xyz.summer.bikejourneytracker.data.local.journey.entitiy.JourneyEntity;
 import xyz.summer.bikejourneytracker.data.local.journey.entitiy.StationEntity;
 import xyz.summer.bikejourneytracker.data.remote.journey.api.JourneyApi;
+import xyz.summer.bikejourneytracker.data.repository.DepartureRepository;
 import xyz.summer.bikejourneytracker.data.repository.MainRepositoryImp;
 import xyz.summer.bikejourneytracker.data.source.GetJourneySource;
 import xyz.summer.bikejourneytracker.data.source.GetStationSource;
@@ -67,8 +68,13 @@ import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_Provide
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideStationDaoFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideStationDatabaseFactory;
 import xyz.summer.bikejourneytracker.presentation.activity.MainActivity;
+import xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel_HiltModules_KeyModule_ProvideFactory;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel_HiltModules_KeyModule_ProvideFactory;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel_HiltModules_KeyModule_ProvideFactory;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel_HiltModules_KeyModule_ProvideFactory;
 
@@ -408,7 +414,7 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     @Override
     public Set<String> getViewModelKeys() {
-      return SetBuilder.<String>newSetBuilder(2).add(BeerListViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(StationListViewModel_HiltModules_KeyModule_ProvideFactory.provide()).build();
+      return SetBuilder.<String>newSetBuilder(4).add(BeerListViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(DepartureViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(ReturnViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(StationListViewModel_HiltModules_KeyModule_ProvideFactory.provide()).build();
     }
 
     @Override
@@ -429,6 +435,10 @@ public final class DaggerApp_HiltComponents_SingletonC {
     @Override
     public void injectMainActivity(MainActivity mainActivity) {
     }
+
+    @Override
+    public void injectTopFiveActivity(TopFiveActivity topFiveActivity) {
+    }
   }
 
   private static final class ViewModelCImpl extends App_HiltComponents.ViewModelC {
@@ -439,6 +449,10 @@ public final class DaggerApp_HiltComponents_SingletonC {
     private final ViewModelCImpl viewModelCImpl = this;
 
     private Provider<BeerListViewModel> beerListViewModelProvider;
+
+    private Provider<DepartureViewModel> departureViewModelProvider;
+
+    private Provider<ReturnViewModel> returnViewModelProvider;
 
     private Provider<StationListViewModel> stationListViewModelProvider;
 
@@ -452,16 +466,22 @@ public final class DaggerApp_HiltComponents_SingletonC {
 
     }
 
+    private DepartureRepository departureRepository() {
+      return new DepartureRepository(singletonCImpl.provideBeerApiProvider.get());
+    }
+
     @SuppressWarnings("unchecked")
     private void initialize(final SavedStateHandle savedStateHandleParam,
         final ViewModelLifecycle viewModelLifecycleParam) {
       this.beerListViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
-      this.stationListViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
+      this.departureViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
+      this.returnViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 2);
+      this.stationListViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 3);
     }
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(2).put("xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel", ((Provider) beerListViewModelProvider)).put("xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel", ((Provider) stationListViewModelProvider)).build();
+      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(4).put("xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel", ((Provider) beerListViewModelProvider)).put("xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel", ((Provider) departureViewModelProvider)).put("xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel", ((Provider) returnViewModelProvider)).put("xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel", ((Provider) stationListViewModelProvider)).build();
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -488,7 +508,13 @@ public final class DaggerApp_HiltComponents_SingletonC {
           case 0: // xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel 
           return (T) new BeerListViewModel(singletonCImpl.provideGetBeersProvider.get());
 
-          case 1: // xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel 
+          case 1: // xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel 
+          return (T) new DepartureViewModel(viewModelCImpl.departureRepository());
+
+          case 2: // xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel 
+          return (T) new ReturnViewModel(viewModelCImpl.departureRepository());
+
+          case 3: // xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel 
           return (T) new StationListViewModel(singletonCImpl.provideGetStationsProvider.get());
 
           default: throw new AssertionError(id);

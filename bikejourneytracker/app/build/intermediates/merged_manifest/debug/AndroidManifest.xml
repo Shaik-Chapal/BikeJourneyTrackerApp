@@ -45,6 +45,16 @@
         android:theme="@style/Theme.PagingCaching"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity"
+            android:exported="false"
+            android:label="@string/title_activity_top_five"
+            android:theme="@style/Theme.PagingCaching" />
+        <activity
+            android:name="xyz.summer.bikejourneytracker.presentation.screen.MapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_map"
+            android:theme="@style/Theme.PagingCaching" />
+        <activity
             android:name="xyz.summer.bikejourneytracker.presentation.activity.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.PagingCaching" >
@@ -62,7 +72,14 @@
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"
-            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+            android:exported="false" />
+
+        <activity
+            android:name="androidx.activity.ComponentActivity"
+            android:exported="true" />
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />

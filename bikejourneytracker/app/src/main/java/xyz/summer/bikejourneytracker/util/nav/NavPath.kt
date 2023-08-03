@@ -1,5 +1,8 @@
 package xyz.summer.bikejourneytracker.util.nav
 
 enum class NavPath {
-    HOME, SEARCH, LIST,HOMEMAP
+    HOME, SEARCH, LIST,HOMEMAP;
+
+
+
 }

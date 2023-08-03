@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [io.coil-kt:coil-compose:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\c7f1a57edff2e358259363802e0abda4\transformed\coil-compose-2.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\15dfdb05cc40a9f51fa352bb7680c33a\transformed\hilt-navigation-compose-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-compose:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\eaace5faaadf6dbd02fa6df856f9d8c3\transformed\navigation-compose-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -16,20 +16,24 @@ MERGED from [androidx.paging:paging-runtime:3.2.0-alpha05] C:\Users\disah\.gradl
 MERGED from [androidx.paging:paging-runtime-ktx:3.2.0-alpha05] C:\Users\disah\.gradle\caches\transforms-3\741cc40f744fc4865e2c00789780d7bd\transformed\paging-runtime-ktx-3.2.0-alpha05\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.paging:paging-compose:1.0.0-alpha19] C:\Users\disah\.gradle\caches\transforms-3\4685d0c0d9837950def6ad43547bf909\transformed\paging-compose-1.0.0-alpha19\AndroidManifest.xml:17:1-22:12
 MERGED from [io.coil-kt:coil-compose-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\99b9e3a0e48f7fbc6caa510ebc09263a\transformed\coil-compose-base-2.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\80dad83be7cf81dac345dfe99c38f069\transformed\material-ripple-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\d0596dba7a8997beb5239ee60a842504\transformed\material-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.foundation:foundation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\35c243db83ba19d70c44ee9e118baf61\transformed\foundation-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\257a0e7b1ffeb4f3d795563f9dc78c25\transformed\ui-tooling-data-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-util:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\15a74a92a4aa9f6d669d2361d7143431\transformed\ui-util-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-text:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\87a488de7ce50dcda446573c18f8ffa5\transformed\ui-text-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ee4dd91897fbc42852f5cefc9a9a927\transformed\ui-tooling-preview-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.ui:ui-graphics:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\a325a2b17663a2663880f8d21947762d\transformed\ui-graphics-1.4.3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.0] C:\Users\disah\.gradle\caches\transforms-3\a7df6b39b98e27c3070b5fa5499305cc\transformed\accompanist-drawablepainter-0.30.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.compose.ui:ui:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\96a7b133fd81717e419cf3ef074acf2b\transformed\ui-1.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.hilt:hilt-navigation:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\485856fb4fda750b42d8e7018b21fcfc\transformed\hilt-navigation-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:hilt-android:2.46] C:\Users\disah\.gradle\caches\transforms-3\a62929d199c0e5f355f9307c5da7ef04\transformed\hilt-android-2.46\AndroidManifest.xml:16:1-19:12
 MERGED from [com.google.maps.android:maps-ktx:3.3.0] C:\Users\disah\.gradle\caches\transforms-3\afb5818e488c3cd28fd7a370abaa1632\transformed\maps-ktx-3.3.0\AndroidManifest.xml:18:1-25:12
@@ -87,22 +91,22 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\disah\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\86e4f6f97e683ce9e8a2deeefc2c52fb\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\disah\.gradle\caches\transforms-3\3af07e4aab553d1292092be595cd20d0\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.46] C:\Users\disah\.gradle\caches\transforms-3\1fc71ed3f13a32d2799702632dd9332c\transformed\dagger-lint-aar-2.46\AndroidManifest.xml:16:1-19:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:11-69
@@ -113,9 +117,13 @@ MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.g
 	android:name
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:7:5-32:19
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:7:5-43:19
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\disah\.gradle\caches\transforms-3\846ce4ab31cd039e2e09b6dc1bd7813a\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
@@ -143,13 +151,13 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\disah\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.0] C:\Users\disah\.gradle\caches\transforms-3\3114c7f6ef681faf01fc1648ebf7b455\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
@@ -157,37 +165,57 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\disah\.gradle\cach
 	android:allowBackup
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:16:9-51
 	android:dataExtractionRules
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:10:9-65
 	android:usesCleartextTraffic
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:14:9-44
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:8:9-71
-activity#xyz.summer.bikejourneytracker.presentation.activity.MainActivity
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:20:9-29:20
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:8:9-42
+activity#xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:19:9-23:58
+	android:label
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:22:13-60
 	android:exported
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:21:13-37
 	android:theme
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:23:13-55
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:21:13-92
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:20:13-64
+activity#xyz.summer.bikejourneytracker.presentation.screen.MapActivity
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:24:9-28:58
+	android:label
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:13-55
+	android:exported
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:28:13-55
+	android:name
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:25:13-60
+activity#xyz.summer.bikejourneytracker.presentation.activity.MainActivity
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:29:9-38:20
+	android:exported
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:31:13-36
+	android:theme
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:32:13-55
+	android:name
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:36:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:9-123
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:40:9-42:71
 	android:value
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:66-121
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:42:13-68
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:20-65
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:41:13-58
 uses-sdk
 INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
@@ -216,18 +244,22 @@ MERGED from [androidx.paging:paging-compose:1.0.0-alpha19] C:\Users\disah\.gradl
 MERGED from [androidx.paging:paging-compose:1.0.0-alpha19] C:\Users\disah\.gradle\caches\transforms-3\4685d0c0d9837950def6ad43547bf909\transformed\paging-compose-1.0.0-alpha19\AndroidManifest.xml:20:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\99b9e3a0e48f7fbc6caa510ebc09263a\transformed\coil-compose-base-2.3.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\99b9e3a0e48f7fbc6caa510ebc09263a\transformed\coil-compose-base-2.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\80dad83be7cf81dac345dfe99c38f069\transformed\material-ripple-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\80dad83be7cf81dac345dfe99c38f069\transformed\material-ripple-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\29f9a41d6ab8e85b1d1686a63f035ff4\transformed\material-icons-core-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\d0596dba7a8997beb5239ee60a842504\transformed\material-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\d0596dba7a8997beb5239ee60a842504\transformed\material-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\c4c4c8276a3d0094bc1626123781c76e\transformed\foundation-layout-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.foundation:foundation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\35c243db83ba19d70c44ee9e118baf61\transformed\foundation-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.foundation:foundation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\35c243db83ba19d70c44ee9e118baf61\transformed\foundation-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.animation:animation-core:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f0bc75e83b52b01b094a9c5693c44025\transformed\animation-core-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.animation:animation:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ef769e63225bee51e286dcf2c39690b\transformed\animation-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\257a0e7b1ffeb4f3d795563f9dc78c25\transformed\ui-tooling-data-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\257a0e7b1ffeb4f3d795563f9dc78c25\transformed\ui-tooling-data-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-util:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\15a74a92a4aa9f6d669d2361d7143431\transformed\ui-util-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-util:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\15a74a92a4aa9f6d669d2361d7143431\transformed\ui-util-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-unit:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\f2099de1b426fc70cfc2b1be4a4dfc67\transformed\ui-unit-1.4.3\AndroidManifest.xml:20:5-44
@@ -238,12 +270,16 @@ MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\cache
 MERGED from [androidx.compose.ui:ui-geometry:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\5a03fe8720a674f31a51662ccb385bcd\transformed\ui-geometry-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ee4dd91897fbc42852f5cefc9a9a927\transformed\ui-tooling-preview-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\0ee4dd91897fbc42852f5cefc9a9a927\transformed\ui-tooling-preview-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-graphics:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\a325a2b17663a2663880f8d21947762d\transformed\ui-graphics-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-graphics:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\a325a2b17663a2663880f8d21947762d\transformed\ui-graphics-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.0] C:\Users\disah\.gradle\caches\transforms-3\a7df6b39b98e27c3070b5fa5499305cc\transformed\accompanist-drawablepainter-0.30.0\AndroidManifest.xml:21:5-23:42
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.0] C:\Users\disah\.gradle\caches\transforms-3\a7df6b39b98e27c3070b5fa5499305cc\transformed\accompanist-drawablepainter-0.30.0\AndroidManifest.xml:21:5-23:42
 MERGED from [androidx.compose.ui:ui:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\96a7b133fd81717e419cf3ef074acf2b\transformed\ui-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\96a7b133fd81717e419cf3ef074acf2b\transformed\ui-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.hilt:hilt-navigation:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\485856fb4fda750b42d8e7018b21fcfc\transformed\hilt-navigation-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.hilt:hilt-navigation:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\485856fb4fda750b42d8e7018b21fcfc\transformed\hilt-navigation-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.dagger:hilt-android:2.46] C:\Users\disah\.gradle\caches\transforms-3\a62929d199c0e5f355f9307c5da7ef04\transformed\hilt-android-2.46\AndroidManifest.xml:18:3-42
@@ -380,6 +416,18 @@ ADDED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\cac
 		ADDED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:26:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:25:13-74
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\2c05ca1997d1b787d7b19dc113636218\transformed\ui-tooling-1.4.3\AndroidManifest.xml:24:13-71
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.gradle\caches\transforms-3\0a66069ea849ffac9d1dbabec43c6046\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 	android:name

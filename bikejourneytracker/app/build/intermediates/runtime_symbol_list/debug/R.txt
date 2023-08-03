@@ -357,7 +357,9 @@ int string status_bar_notification_info_overflow 0x7f0b0031
 int string switch_role 0x7f0b0032
 int string tab 0x7f0b0033
 int string template_percent 0x7f0b0034
-int string your_first_brewed_in 0x7f0b0035
+int string title_activity_map 0x7f0b0035
+int string title_activity_top_five 0x7f0b0036
+int string your_first_brewed_in 0x7f0b0037
 int style DialogWindowTheme 0x7f0c0000
 int style FloatingDialogTheme 0x7f0c0001
 int style FloatingDialogWindowTheme 0x7f0c0002

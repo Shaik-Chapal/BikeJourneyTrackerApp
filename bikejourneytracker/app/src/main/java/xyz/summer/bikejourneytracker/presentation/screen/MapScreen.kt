@@ -1,10 +1,15 @@
 package xyz.summer.bikejourneytracker.presentation.screen
 
+import android.annotation.SuppressLint
 import android.os.Bundle
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
@@ -23,41 +28,53 @@ import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import xyz.summer.bikejourneytracker.presentation.viewmodel.SharedViewModel
 
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
-fun GoogleMapMultipleMarker() {
+
+fun GoogleMapMultipleMarker(viewModel: String) {
     val mapview = rememberMapViewWithLifeCycle()
-    Box {
-        Column(
+    Scaffold(
+        topBar = {
+            // Replace this with your custom top app bar content
+            // For example, you can use TopAppBar from the Material3 library:
+            TopAppBar(
+                title = { Text(text = "Map wit Markers") },
+                // Add other properties as needed, e.g., navigation icon, actions, etc.
+            )
+        }
+    ) {
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(Color.White)
         ) {
-            AndroidView(
-                { mapview }
-            ) { mapView ->
-                CoroutineScope(Dispatchers.Main).launch {
-                    mapView.getMapAsync {
-                        it.mapType = 1
-                        it.uiSettings.isZoomControlsEnabled = true
-                        val mark1 = LatLng(17.385, 78.4867) //Hyd
-                        val mark2 = LatLng(18.5204, 73.8567) //Pune
-                        val mark3 = LatLng(12.9716, 77.5946) //Bang
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+            ) {
+                AndroidView(
+                    { mapview }
+                ) { mapView ->
+                    CoroutineScope(Dispatchers.Main).launch {
+                        mapView.getMapAsync { googleMap ->
+                            googleMap.mapType = 1
+                            googleMap.uiSettings.isZoomControlsEnabled = true
+                            val values: List<String> = viewModel.split(",")
 
-                        it.moveCamera(CameraUpdateFactory.newLatLngZoom(mark1, 6f))
-                        val markerOption = MarkerOptions()
-                            .title("Hyderabad")
-                            .position(mark1)
-                        val markerOptions2 = MarkerOptions()
-                            .title("Pune")
-                            .position(mark2)
-                        val markerOptions3 = MarkerOptions()
-                            .title("Bangalore")
-                            .position(mark3)
+                            val latitude: Double = values[0].trim().toDouble()
+                            val longitude: Double = values[1].trim().toDouble()
 
-                        it.addMarker(markerOption)
-                        it.addMarker(markerOptions2)
-                        it.addMarker(markerOptions3)
+                            val mark1 = LatLng(latitude, longitude) //Hyd
+
+                            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mark1, 6f))
+                            val markerOption = MarkerOptions()
+                                .title("Hyderabad")
+                                .position(mark1)
+
+                            googleMap.addMarker(markerOption)
+                        }
                     }
                 }
             }

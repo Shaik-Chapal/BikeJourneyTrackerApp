@@ -8,4 +8,6 @@
     <string name="search">Search</string>
     <string name="list">List</string>
     <string name="profile">Profile</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_top_five">TopFiveActivity</string>
 </resources>

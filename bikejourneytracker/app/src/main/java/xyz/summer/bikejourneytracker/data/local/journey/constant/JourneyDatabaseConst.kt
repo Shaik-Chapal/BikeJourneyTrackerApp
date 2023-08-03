@@ -7,6 +7,7 @@ object JourneyDatabaseConst {
      */
     const val NAME = "database_beer"
     const val NAME_STATION = "database_station"
+    const val NAME_D = "d_station"
 
     /**
      * Database version.
@@ -21,4 +22,5 @@ object JourneyDatabaseConst {
      */
     const val TABLE_BEER = "table_beer"
     const val TABLE_STATION = "station_beer"
+    const val TABLE_D = "station_d"
 }

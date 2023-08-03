@@ -16,6 +16,8 @@ string list
 string profile
 string returnTime
 string search
+string title_activity_map
+string title_activity_top_five
 string your_first_brewed_in
 style Theme.PagingCaching
 xml backup_rules

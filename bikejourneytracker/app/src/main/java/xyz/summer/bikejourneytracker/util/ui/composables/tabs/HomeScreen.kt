@@ -1,5 +1,7 @@
 package xyz.summer.bikejourneytracker.util.ui.composables.tabs
 
+import android.content.Intent
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
@@ -11,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
@@ -18,8 +21,12 @@ import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemContentType
 import androidx.paging.compose.itemKey
+import xyz.summer.bikejourneytracker.domain.model.StationModel
 import xyz.summer.bikejourneytracker.presentation.component.CardStation
 import xyz.summer.bikejourneytracker.presentation.component.ProgressBarCenter
+import xyz.summer.bikejourneytracker.presentation.screen.GoogleMapMultipleMarker
+import xyz.summer.bikejourneytracker.presentation.screen.MapActivity
+import xyz.summer.bikejourneytracker.presentation.viewmodel.SharedViewModel
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel
 import xyz.summer.bikejourneytracker.util.nav.NavPath
 
@@ -29,9 +36,10 @@ import xyz.summer.bikejourneytracker.util.nav.NavPath
 @Composable
 fun HomeScreen(snackbar: SnackbarHostState = remember { SnackbarHostState() },
                viewmodel: StationListViewModel = hiltViewModel(),
-               navController: NavController,
+
 ) {
     val beers = viewmodel.beers.collectAsLazyPagingItems()
+    val context = LocalContext.current
 
     LaunchedEffect(key1 = beers.loadState) {
         val state = beers.loadState.refresh
@@ -65,7 +73,19 @@ fun HomeScreen(snackbar: SnackbarHostState = remember { SnackbarHostState() },
             ) { index ->
                 val beer = beers[index]
                 if (beer != null) CardStation(beer = beer) {
-                    navController.navigate(NavPath.HOMEMAP.toString())
+                   // String() tt: (beer: StationModel) -> String = { beer -> "${beer.x},${beer.y}" }
+
+//                    vl.setData(tt.toString())
+//                    navController.navigate(NavPath.HOMEMAP.toString())
+                    //context.startActivity(Intent(context, MapActivity::class.java))
+                    val intent = Intent(context, MapActivity::class.java)
+                    intent.putExtra("list", "${beer.x},${beer.y}")
+                    context.startActivity(intent)
+                    Log.d("dd","${beer.x},${beer.y}")
+
+
+
+
                 }
             }
 
@@ -85,6 +105,8 @@ fun HomeScreen(snackbar: SnackbarHostState = remember { SnackbarHostState() },
         }
     }
 }
+
+
 
 //@Composable
 //fun CardStation(station: Station, onClick: () -> Unit) {

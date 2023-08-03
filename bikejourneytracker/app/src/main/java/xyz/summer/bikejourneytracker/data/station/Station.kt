@@ -3,6 +3,7 @@ package xyz.summer.bikejourneytracker.data.station
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
+
 @JsonClass(generateAdapter = true)
 data class Station(
     @Json(name = "adress") val address: String,

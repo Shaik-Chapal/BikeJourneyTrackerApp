@@ -47,7 +47,10 @@ import javax.annotation.processing.Generated;
 import javax.inject.Singleton;
 import xyz.summer.bikejourneytracker.injection.bind.ApplicationModule;
 import xyz.summer.bikejourneytracker.presentation.activity.MainActivity_GeneratedInjector;
+import xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity_GeneratedInjector;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel_HiltModules;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel_HiltModules;
+import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel_HiltModules;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel_HiltModules;
 
 @Generated("dagger.hilt.processor.internal.root.RootProcessor")
@@ -158,7 +161,9 @@ public final class App_HiltComponents {
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
           BeerListViewModel_HiltModules.KeyModule.class,
+          DepartureViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
+          ReturnViewModel_HiltModules.KeyModule.class,
           StationListViewModel_HiltModules.KeyModule.class
       }
   )
@@ -187,7 +192,8 @@ public final class App_HiltComponents {
       FragmentComponentManager.FragmentComponentBuilderEntryPoint,
       ViewComponentManager.ViewComponentBuilderEntryPoint,
       GeneratedComponent,
-      MainActivity_GeneratedInjector {
+      MainActivity_GeneratedInjector,
+      TopFiveActivity_GeneratedInjector {
     @Subcomponent.Builder
     abstract interface Builder extends ActivityComponentBuilder {
     }
@@ -196,7 +202,9 @@ public final class App_HiltComponents {
   @Subcomponent(
       modules = {
           BeerListViewModel_HiltModules.BindsModule.class,
+          DepartureViewModel_HiltModules.BindsModule.class,
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          ReturnViewModel_HiltModules.BindsModule.class,
           StationListViewModel_HiltModules.BindsModule.class
       }
   )
