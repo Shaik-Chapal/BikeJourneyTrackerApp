@@ -1,7 +1,9 @@
 package xyz.summer.bikejourneytracker.presentation.screen
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
@@ -22,6 +24,7 @@ import xyz.summer.bikejourneytracker.presentation.component.ProgressBarCenter
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel
 
 import androidx.navigation.NavController
+import xyz.summer.bikejourneytracker.util.ui.composables.tabs.Header
 
 @Composable
 fun ListScreen(
@@ -42,6 +45,13 @@ fun ListScreen(
             }
         }
     ) { padding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+
+            ) {
+        Header("Journey")
         LazyColumn(
             contentPadding = padding,
             verticalArrangement = Arrangement.spacedBy(10.dp),
@@ -77,7 +87,7 @@ fun ListScreen(
 
                 else -> Unit
             }
-        }
+        }}
     }
 }
 

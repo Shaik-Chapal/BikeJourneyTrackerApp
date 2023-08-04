@@ -30,6 +30,7 @@ import xyz.summer.bikejourneytracker.data.top_departure.DepartureResponseItem
 import xyz.summer.bikejourneytracker.presentation.screen.ui.theme.BikeJourneyTrackerAppTheme
 import xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel
 import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel
+import xyz.summer.bikejourneytracker.util.ui.composables.tabs.HeaderS
 
 @AndroidEntryPoint
 class TopFiveActivity : ComponentActivity() {
@@ -65,6 +66,13 @@ fun Departure(
 ) {
     val departureData: List<DepartureResponseItem> by viewModel.departureData.collectAsState(emptyList())
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 20.dp),
+
+        ) {
+        HeaderS("Top Departure")
     LazyColumn(
         modifier = modifier.fillMaxSize(),
         contentPadding = PaddingValues(16.dp)
@@ -72,7 +80,7 @@ fun Departure(
         items(departureData) { departure ->
             DepartureItem(departure = departure)
         }
-    }
+    }}
 }
 
 @Composable
@@ -111,6 +119,13 @@ fun Return(
 ) {
     val departureData: List<ReturnResponseItem> by viewModel.departureData.collectAsState(emptyList())
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 20.dp),
+
+        ) {
+    HeaderS("Top Return")
     LazyColumn(
         modifier = modifier.fillMaxSize(),
         contentPadding = PaddingValues(16.dp)
@@ -118,7 +133,7 @@ fun Return(
         items(departureData) { departure ->
             ReturnItem(departure = departure)
         }
-    }
+    }}
 }
 
 @Composable

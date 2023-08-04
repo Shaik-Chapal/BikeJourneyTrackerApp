@@ -1,90 +1,162 @@
 [
     {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_ic_launcher_background.xml.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_ic_person.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/ic_person.xml"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_ic_credit_card.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\ic_credit_card.xml"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_ic_credit_card.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/ic_credit_card.xml"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/xml_backup_rules.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/xml/backup_rules.xml"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_strings.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/strings.xml"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/xml_data_extraction_rules.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_ic_voice.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/ic_voice.xml"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_ic_heart.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/ic_heart.xml"
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\ic_home.xml"
     },
     {
         "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/drawable_ic_home.xml.flat",
-        "source": "xyz.summer.bikejourneytracker.app-main-74:/drawable/ic_home.xml"
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_ic_voice.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\ic_voice.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_strings.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\strings.xml"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_ic_heart.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\ic_heart.xml"
+    },
+    {
+        "merged": "xyz.summer.bikejourneytracker.app-merged_res-72:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "xyz.summer.bikejourneytracker.app-main-74:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-merged_res-72:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\disah\\.gradle\\daemon\\8.0\\xyz.summer.bikejourneytracker.app-main-74:\\drawable\\ic_person.xml"
     }
 ]

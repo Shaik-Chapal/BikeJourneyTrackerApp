@@ -89,7 +89,7 @@ fun CardStation(
         colors = CardDefaults.cardColors(
             containerColor = md_theme_light_tertiary,
         ),
-        modifier = Modifier.padding(horizontal = 10.dp)
+        modifier = Modifier.padding(horizontal = 0.dp)
             .clickable(onClick = onClick),
     ) {
         Row(
