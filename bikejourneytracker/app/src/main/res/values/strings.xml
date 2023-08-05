@@ -10,4 +10,6 @@
     <string name="profile">Profile</string>
     <string name="title_activity_map">MapActivity</string>
     <string name="title_activity_top_five">TopFiveActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>

@@ -6,6 +6,8 @@
     <string name="profile">Profile</string>
     <string name="returnTime">Return Time :</string>
     <string name="search">Search</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_map">MapActivity</string>
     <string name="title_activity_top_five">TopFiveActivity</string>
     <string name="your_first_brewed_in">First brewed in %1$s</string>

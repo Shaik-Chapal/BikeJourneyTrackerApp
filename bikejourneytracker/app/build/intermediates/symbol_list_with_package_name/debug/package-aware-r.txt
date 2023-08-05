@@ -158,6 +158,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_back_arrow
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -171,6 +172,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_person
 drawable ic_voice
+drawable logo
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -359,6 +361,8 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
+string title_activity_home
+string title_activity_login
 string title_activity_map
 string title_activity_top_five
 string your_first_brewed_in

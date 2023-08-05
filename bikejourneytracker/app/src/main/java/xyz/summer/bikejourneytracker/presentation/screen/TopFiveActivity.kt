@@ -69,13 +69,13 @@ fun Departure(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 20.dp),
+            .padding(horizontal = 0.dp),
 
         ) {
-        HeaderS("Top Departure")
+        HeaderS("Top 5 Popular Departure Station")
     LazyColumn(
         modifier = modifier.fillMaxSize(),
-        contentPadding = PaddingValues(16.dp)
+        contentPadding = PaddingValues(0.dp)
     ) {
         items(departureData) { departure ->
             DepartureItem(departure = departure)
@@ -122,13 +122,13 @@ fun Return(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 20.dp),
+            .padding(horizontal = 4.dp),
 
         ) {
-    HeaderS("Top Return")
+    HeaderS("Top 5 Popular Return Station")
     LazyColumn(
         modifier = modifier.fillMaxSize(),
-        contentPadding = PaddingValues(16.dp)
+        contentPadding = PaddingValues(0.dp)
     ) {
         items(departureData) { departure ->
             ReturnItem(departure = departure)
@@ -141,7 +141,7 @@ fun ReturnItem(departure: ReturnResponseItem) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(8.dp),
+            .padding(5.dp),
 
         ) {
         Column(

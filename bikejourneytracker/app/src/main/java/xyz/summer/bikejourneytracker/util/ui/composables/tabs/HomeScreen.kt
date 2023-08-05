@@ -1,13 +1,18 @@
 package xyz.summer.bikejourneytracker.util.ui.composables.tabs
 
+import android.content.Context
 import android.content.Intent
 import android.util.Log
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -31,16 +36,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavController
 import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemContentType
 import androidx.paging.compose.itemKey
+import xyz.summer.bikejourneytracker.R
+import xyz.summer.bikejourneytracker.presentation.activity.MainActivity
 import xyz.summer.bikejourneytracker.presentation.component.CardStation
 import xyz.summer.bikejourneytracker.presentation.component.ProgressBarCenter
 import xyz.summer.bikejourneytracker.presentation.screen.MapActivity
@@ -77,7 +87,7 @@ fun HomeScreen(snackbar: SnackbarHostState = remember { SnackbarHostState() },
                 .padding(horizontal = 20.dp),
 
             ) {
-        Header("Station")
+        Header("Station List")
         LazyColumn(
             contentPadding = padding,
             verticalArrangement = Arrangement.spacedBy(10.dp),
@@ -187,6 +197,41 @@ fun Header(s: String) {
 
 }
 @Composable
+fun Navbar(context:Context) {
+    Row(
+        Modifier
+            .fillMaxWidth().background(color = Color.Cyan)
+            .padding(10.dp)
+        ,
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Image(
+            painterResource(id= R.drawable.ic_back_arrow),
+            contentDescription = "back_button",
+            modifier = Modifier
+                .size(32.dp)
+                .clickable {
+                    val intent = Intent(context, MainActivity::class.java)
+
+                    context.startActivity(intent)
+                }
+        )
+        Text(
+            text = "Station",
+            color = Color.White,
+            fontSize = 20.sp,
+            style = TextStyle(fontWeight = FontWeight.Bold, color = Color.White),
+        )
+        Text(
+            text = "          ",
+            color = TextPrimary,
+            fontSize = 18.sp,
+        )
+
+    }
+}
+@Composable
 fun HeaderS(s: String) {
     Column(
         modifier = Modifier.padding
@@ -204,6 +249,7 @@ fun HeaderS(s: String) {
                     style = TextStyle(fontWeight = FontWeight.Bold),
                     text = s,
                     color = TextSecondary,
+                    textAlign = TextAlign.Center,
                     fontSize = 16.sp,
                 )
             }

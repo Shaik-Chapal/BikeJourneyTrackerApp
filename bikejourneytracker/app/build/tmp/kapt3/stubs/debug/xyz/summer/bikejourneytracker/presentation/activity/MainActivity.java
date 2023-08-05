@@ -10,12 +10,6 @@ public final class MainActivity extends androidx.activity.ComponentActivity {
         super();
     }
     
-    /**
-     * Called when the activity is starting. This is where most initialization should go:
-     * calling `setContentView`, instantiating UI components, and binding data.
-     *
-     * @param savedInstanceState The previously saved instance state, if any.
-     */
     @java.lang.Override
     protected void onCreate(@org.jetbrains.annotations.Nullable
     android.os.Bundle savedInstanceState) {

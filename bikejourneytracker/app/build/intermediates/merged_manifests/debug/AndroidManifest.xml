@@ -45,6 +45,16 @@
         android:theme="@style/Theme.PagingCaching"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="xyz.summer.bikejourneytracker.util.ui.composables.tabs.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.PagingCaching" />
+        <activity
+            android:name="xyz.summer.bikejourneytracker.presentation.screen.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.PagingCaching" />
+        <activity
             android:name="xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity"
             android:exported="false"
             android:label="@string/title_activity_top_five"

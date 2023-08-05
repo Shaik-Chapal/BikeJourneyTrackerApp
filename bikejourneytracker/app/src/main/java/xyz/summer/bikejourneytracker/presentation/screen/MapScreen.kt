@@ -2,21 +2,33 @@ package xyz.summer.bikejourneytracker.presentation.screen
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.R
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.ViewCompat
 import androidx.lifecycle.Lifecycle
@@ -28,23 +40,27 @@ import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import xyz.summer.bikejourneytracker.presentation.viewmodel.SharedViewModel
+import xyz.summer.bikejourneytracker.presentation.theme.TextSecondary
+import xyz.summer.bikejourneytracker.util.ui.composables.tabs.Navbar
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 
 fun GoogleMapMultipleMarker(viewModel: String) {
     val mapview = rememberMapViewWithLifeCycle()
+    val context = LocalContext.current
     Scaffold(
-        topBar = {
-            // Replace this with your custom top app bar content
-            // For example, you can use TopAppBar from the Material3 library:
-            TopAppBar(
-                title = { Text(text = "Map wit Markers") },
-                // Add other properties as needed, e.g., navigation icon, actions, etc.
-            )
-        }
+
+
     ) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 0.dp),
+
+            ) {
+            Navbar(context = context );
+            DetailsItems()
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -70,13 +86,48 @@ fun GoogleMapMultipleMarker(viewModel: String) {
 
                             googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mark1, 6f))
                             val markerOption = MarkerOptions()
-                                .title("Hyderabad")
+                                .title("")
                                 .position(mark1)
 
                             googleMap.addMarker(markerOption)
                         }
                     }
                 }
+            }
+        }}
+    }
+}
+
+@Composable
+fun DetailsItems() {
+    Box(
+        Modifier
+            .fillMaxWidth()
+
+
+            .padding(horizontal = 20.dp, vertical = 16.dp)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Column(
+                verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "Starting from the station",
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    color = TextSecondary,
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Bold,
+                )
+                Text(
+                    text = "20",
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    color = TextSecondary,
+                    fontSize = 14.sp,
+                )
             }
         }
     }

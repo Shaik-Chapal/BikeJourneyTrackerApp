@@ -47,11 +47,13 @@ import javax.annotation.processing.Generated;
 import javax.inject.Singleton;
 import xyz.summer.bikejourneytracker.injection.bind.ApplicationModule;
 import xyz.summer.bikejourneytracker.presentation.activity.MainActivity_GeneratedInjector;
+import xyz.summer.bikejourneytracker.presentation.screen.HomeActivity_GeneratedInjector;
 import xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity_GeneratedInjector;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel_HiltModules;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.DepartureViewModel_HiltModules;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel_HiltModules;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel_HiltModules;
+import xyz.summer.bikejourneytracker.util.ui.composables.tabs.LoginActivity_GeneratedInjector;
 
 @Generated("dagger.hilt.processor.internal.root.RootProcessor")
 public final class App_HiltComponents {
@@ -193,7 +195,9 @@ public final class App_HiltComponents {
       ViewComponentManager.ViewComponentBuilderEntryPoint,
       GeneratedComponent,
       MainActivity_GeneratedInjector,
-      TopFiveActivity_GeneratedInjector {
+      HomeActivity_GeneratedInjector,
+      TopFiveActivity_GeneratedInjector,
+      LoginActivity_GeneratedInjector {
     @Subcomponent.Builder
     abstract interface Builder extends ActivityComponentBuilder {
     }

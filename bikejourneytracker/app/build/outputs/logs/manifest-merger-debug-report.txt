@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [io.coil-kt:coil-compose:2.3.0] C:\Users\disah\.gradle\caches\transforms-3\c7f1a57edff2e358259363802e0abda4\transformed\coil-compose-2.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\15dfdb05cc40a9f51fa352bb7680c33a\transformed\hilt-navigation-compose-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-compose:2.5.3] C:\Users\disah\.gradle\caches\transforms-3\eaace5faaadf6dbd02fa6df856f9d8c3\transformed\navigation-compose-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -91,22 +91,22 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\disah\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\disah\.gradle\caches\transforms-3\86e4f6f97e683ce9e8a2deeefc2c52fb\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\disah\.gradle\caches\transforms-3\3af07e4aab553d1292092be595cd20d0\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.46] C:\Users\disah\.gradle\caches\transforms-3\1fc71ed3f13a32d2799702632dd9332c\transformed\dagger-lint-aar-2.46\AndroidManifest.xml:16:1-19:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:2:11-69
@@ -117,7 +117,7 @@ MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\disah\.g
 	android:name
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:7:5-43:19
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:7:5-53:19
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.0-alpha01] C:\Users\disah\.gradle\caches\transforms-3\7bfb8e4ff7d3bc6bbdd715ee65ce975f\transformed\room-runtime-2.6.0-alpha01\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.3] C:\Users\disah\.gradle\caches\transforms-3\62311f9f2c78d91b8f105e6f4fbd45d4\transformed\ui-test-manifest-1.4.3\AndroidManifest.xml:22:5-26:19
@@ -172,50 +172,70 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\disah\.gradle\cach
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:8:9-42
-activity#xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity
+activity#xyz.summer.bikejourneytracker.util.ui.composables.tabs.LoginActivity
 ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:19:9-23:58
 	android:label
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:22:13-60
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:22:13-57
 	android:exported
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:21:13-37
 	android:theme
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:23:13-55
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:20:13-64
-activity#xyz.summer.bikejourneytracker.presentation.screen.MapActivity
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:20:13-67
+activity#xyz.summer.bikejourneytracker.presentation.screen.HomeActivity
 ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:24:9-28:58
 	android:label
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:13-55
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:27:13-56
 	android:exported
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:26:13-37
 	android:theme
 		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:28:13-55
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:25:13-60
-activity#xyz.summer.bikejourneytracker.presentation.activity.MainActivity
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:29:9-38:20
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:25:13-61
+activity#xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:29:9-33:58
+	android:label
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:32:13-60
 	android:exported
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:31:13-37
 	android:theme
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:32:13-55
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:33:13-55
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:13-63
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:30:13-64
+activity#xyz.summer.bikejourneytracker.presentation.screen.MapActivity
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:34:9-38:58
+	android:label
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:37:13-55
+	android:exported
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:38:13-55
+	android:name
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:35:13-60
+activity#xyz.summer.bikejourneytracker.presentation.activity.MainActivity
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:39:9-48:20
+	android:exported
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:42:13-55
+	android:name
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:40:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:46:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:40:9-42:71
+ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:50:9-52:71
 	android:value
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:42:13-68
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:52:13-68
 	android:name
-		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:41:13-58
+		ADDED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml:51:13-58
 uses-sdk
 INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\BikeJourneyTrackerApp\bikejourneytracker\app\src\main\AndroidManifest.xml

@@ -36,7 +36,7 @@ fun CardBeer(
         colors = CardDefaults.cardColors(
             containerColor = md_theme_light_tertiary,
         ),
-        modifier = Modifier.padding(horizontal = 10.dp)
+        modifier = Modifier.padding(horizontal = 0.dp)
     ) {
         Row(
             modifier = Modifier
@@ -70,16 +70,17 @@ fun CardBeer(
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = stringResource(id = R.string.returnTime, beer.returnTime),
-                    textAlign = TextAlign.End,
+                    text =  "Return Time :"+ beer.returnTime,
                     modifier = Modifier.fillMaxWidth()
                 )
+
                 Spacer(modifier = Modifier.height(8.dp))
 
             }
         }
     }
 }
+
 @Composable
 fun CardStation(
     beer: StationModel,
@@ -96,7 +97,7 @@ fun CardStation(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(IntrinsicSize.Max)
-                .padding(16.dp)
+                .padding(4.dp)
         ) {
 
             Spacer(modifier = Modifier.width(16.dp))
@@ -107,28 +108,19 @@ fun CardStation(
                     .fillMaxHeight()
             ) {
                 Text(
-                    text = beer.name,
+                    text = "Name :"+beer.name,
                     style = MaterialTheme.typography.headlineSmall,
                     modifier = Modifier.fillMaxWidth()
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = beer.adress,
+                    text = "Address :"+beer.adress,
                     fontStyle = FontStyle.Italic,
                     modifier = Modifier.fillMaxWidth()
                 )
+
                 Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    text = beer.operaattor,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    text = stringResource(id = R.string.returnTime, beer.osoite),
-                    textAlign = TextAlign.End,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                Spacer(modifier = Modifier.height(8.dp))
+
 
             }
         }

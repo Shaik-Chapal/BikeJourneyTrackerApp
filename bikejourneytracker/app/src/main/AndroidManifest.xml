@@ -17,6 +17,16 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".util.ui.composables.tabs.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.PagingCaching" />
+        <activity
+            android:name=".presentation.screen.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.PagingCaching" />
+        <activity
             android:name=".presentation.screen.TopFiveActivity"
             android:exported="false"
             android:label="@string/title_activity_top_five"

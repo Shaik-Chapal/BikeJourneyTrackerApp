@@ -97,8 +97,12 @@ dependencies {
     implementation "androidx.room:room-paging:2.6.0-alpha01"
     implementation platform('androidx.compose:compose-bom:2022.10.00')
     implementation platform('androidx.compose:compose-bom:2022.10.00')
+    implementation platform('androidx.compose:compose-bom:2022.10.00')
+    implementation platform('androidx.compose:compose-bom:2022.10.00')
     androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
+    androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
+    androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
     androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'

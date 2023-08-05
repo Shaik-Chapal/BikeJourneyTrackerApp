@@ -68,6 +68,7 @@ import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_Provide
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideStationDaoFactory;
 import xyz.summer.bikejourneytracker.injection.provide.ApplicationModule_ProvideStationDatabaseFactory;
 import xyz.summer.bikejourneytracker.presentation.activity.MainActivity;
+import xyz.summer.bikejourneytracker.presentation.screen.HomeActivity;
 import xyz.summer.bikejourneytracker.presentation.screen.TopFiveActivity;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.BeerListViewModel_HiltModules_KeyModule_ProvideFactory;
@@ -77,6 +78,7 @@ import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.ReturnViewModel_HiltModules_KeyModule_ProvideFactory;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel;
 import xyz.summer.bikejourneytracker.presentation.viewmodel.StationListViewModel_HiltModules_KeyModule_ProvideFactory;
+import xyz.summer.bikejourneytracker.util.ui.composables.tabs.LoginActivity;
 
 @DaggerGenerated
 @Generated(
@@ -437,7 +439,15 @@ public final class DaggerApp_HiltComponents_SingletonC {
     }
 
     @Override
+    public void injectHomeActivity(HomeActivity homeActivity) {
+    }
+
+    @Override
     public void injectTopFiveActivity(TopFiveActivity topFiveActivity) {
+    }
+
+    @Override
+    public void injectLoginActivity(LoginActivity loginActivity) {
     }
   }
 

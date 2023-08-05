@@ -1,0 +1,7 @@
+#Fri Aug 04 13:56:14 BDT 2023
+base.0=G\:\\BikeJourneyTrackerApp\\bikejourneytracker\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=G\:\\BikeJourneyTrackerApp\\bikejourneytracker\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
