@@ -2,7 +2,7 @@ package xyz.summer.bikejourneytracker.data.remote.journey.constant
 
 object JourneyApiConst {
 
-    const val BASE_URL = "http://www.api.skygreenblue.xyz/api/"
+    const val BASE_URL = "http://www.skygreenblue.xyz/api/"
 ///Journey/popular-return-stations?topN=5
     object GetJourneys {
         const val ENDPOINTDeparture = "Journey/popular-departure-stations?topN=5"
